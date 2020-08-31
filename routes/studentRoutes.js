@@ -53,6 +53,7 @@ app.patch('/student/:id', async (req, res) => {
 });
 
 //Simulação de remoção do código abaixo. Testando branch remoto.
+//Teria de ter removido o PUT para teste do git ;-)
 app.put('/student/:id', async (req, res) => {
   try {
     const student = await studentModel.findOneAndUpdate(
