@@ -52,7 +52,7 @@ app.patch('/student/:id', async (req, res) => {
   }
 });
 
-//Simulação de remoção do código abaixo.
+//Simulação de remoção do código abaixo. Testando branch remoto.
 app.put('/student/:id', async (req, res) => {
   try {
     const student = await studentModel.findOneAndUpdate(
